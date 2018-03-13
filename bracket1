@@ -2,15 +2,19 @@
 
 DIVISION SELECTOR CODE:
 
-from random import *
- 
-items = ['South','West','East','Midwest']
- 
+from random import * 
+
+items = ['South','West','East','Midwest'] 
+
 x = sample(items,  1)  
 print x[0]
 
 
+
+
+
 CODE TO RANDOMLY SELECT WINNER BASED OFF SEEDS; NEED TO INPUT SEED NUMBERS INTO variables topseed and lowseed:
+
 topseed = 3
 lowseed = 13
 
@@ -25,6 +29,8 @@ for x in range(1):
   	print "low wins"
   else:
     print "high wins"
+
+
 
 
 
