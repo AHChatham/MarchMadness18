@@ -1,0 +1,38 @@
+# NOTES: for most rounds; random select division per round to start with random code below for matchup;
+
+DIVISION SELECTOR CODE:
+
+from random import *
+ 
+items = ['South','West','East','Midwest']
+ 
+x = sample(items,  1)  
+print x[0]
+
+
+CODE TO RANDOMLY SELECT WINNER BASED OFF SEEDS; NEED TO INPUT SEED NUMBERS INTO variables topseed and lowseed:
+topseed = 3
+lowseed = 13
+
+spread = topseed + lowseed
+
+import random
+for x in range(1):
+  v = random.randint(1, spread)
+  
+  
+  if v <= topseed:
+  	print "low wins"
+  else:
+    print "high wins"
+
+
+
+FOR FINAL 4 AND CHAMPIONSHIP GAME-
+	random select winners by division because seeds less important here; also several are same
+
+
+
+  
+  
+  
