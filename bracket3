@@ -1,0 +1,21 @@
+# this one uses the truncated sqrt of rpi (real percentage index) to run prob sim. same basic code form though.
+
+import math
+
+toprpi = math.trunc (math.sqrt(4))
+
+lowrpi = math.trunc (math.sqrt(4))
+
+spread = toprpi + lowrpi
+
+import random
+for x in range(1):
+  v = random.randint(1, spread)
+  
+  
+  if v <= toprpi:
+  	print "low wins"
+  else:
+    print "high wins"
+
+
