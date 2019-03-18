@@ -26,9 +26,9 @@ for x in range(1):
   
   
   if v <= topseed:
-  	print "low wins"
+  	print("low wins")
   else:
-    print "high wins"
+  print("high wins")
 
 
 
